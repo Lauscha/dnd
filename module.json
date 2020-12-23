@@ -1,0 +1,88 @@
+{
+  "name": "rot",
+  "title": "Rise of Tiamat",
+	"description": "<h6>Imported from Roll20 using R20Converter</h6><p style=\"text-align: left;\"><span style=\"font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 10px;\">Product Information </span></p><ul><li><span style=\"font-size: 8px;\">System: D&amp;D 5E</span></li><li><span style=font-size: 8px;\">Starting Level: Low (1)</span></li><li><span style=\"font-size: 8px;\">Length: Long Campaign (Part 2 or 2 Tryanny of Dragons)</span></li><li><span style=\"font-size: 8px;\">Installation: World/Compendium</span></li></ul><hr>",
+	"author": [
+		"R20Converter",
+		"WotC",
+		"Kobold Press"
+	],
+	"keywords": [
+    "RAW",
+    "d&d",
+    "5e",
+		"adventure",
+		"campaign",
+		"dragon",
+		"forgotten realms",
+		"waterdeep",
+		"sea of moving ice",
+		"thay",
+		"plutonium",
+		"sky's alternate 5th edition dungeons & dragons sheet"
+	],
+	"bugs": "",
+	"changelog": "https://wiki.5e.tools/index.php/Change_Log",
+	"url": "https://5e.tools",
+	"manifest": "https://5e.tool/plutonium/rot/module.json",
+	"download": "https://thetrove.net/Books/Dungeons%20&%20Dragons/5th%20Edition%20(5e)/FoundryVTT/add-on/rot.zip",
+	"version": "0.1.00",
+	"systems": ["dnd5e"],
+	"minimumSystemVersion": "0.90",
+	"compatibleSystemVersion": "0.93",
+	"coreVersion": "0.6.2",
+	"minimumCoreVersion": "0.4.5",
+	"compatibleCoreVersion": "0.7.0",
+	"readme": "README.md",
+  "packs": [
+    {
+      "name": "journal",
+      "label": "Handouts (RoT)",
+      "path": "packs/journal.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "actors",
+      "label": "Actors (RoT)",
+      "path": "packs/actors.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items (RoT)",
+      "path": "packs/items.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (RoT)",
+      "path": "packs/scenes.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "Scene"
+    },
+    {
+      "name": "tables",
+      "label": "Rollable Tables (RoT)",
+      "path": "packs/tables.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "RollTable"
+    },
+    {
+      "name": "decks",
+      "label": "Decks (RoT)",
+      "path": "packs/decks.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "RollTable"
+    },
+    {
+      "name": "cards",
+      "label": "Deck Cards (RoT)",
+      "path": "packs/cards.db",
+      "module": "mod-rise-of-tiamat",
+      "entity": "Item"
+    }
+  ]
+}
